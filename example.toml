@@ -1,0 +1,40 @@
+# This is a TOML document.
+
+multiline_string = """ This is a collapsable multiline comment
+ with a \"quote\". 
+ A third line.
+ A fourth line.
+"""
+
+[owner]
+name = "Tom Preston-Werner"
+date = 1979-05-27T07:32:00-08:00 # First class dates
+'quoted "value"' = "value"
+
+[database]
+server = "192.168.1.1"
+ports = [ 8001, inf, nan, +100, -100, false ]
+connection_max = 5_000
+enabled = true
+bin = 0b11111111
+
+[servers]
+
+  # Indentation (tabs and/or spaces) is allowed but not required
+  [servers.alpha]
+  ip = "10.0.0.1"
+  oct = 0o377
+
+  [servers.beta]
+  ip = "10.0.0.2"
+  hex = 0xFF
+
+[clients]
+data = [ ["gamma", "delta"], [1, 2] ]
+
+# Line breaks are OK when inside arrays
+hosts = [
+  "alpha",
+  "omega"
+]
+	

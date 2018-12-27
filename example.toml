@@ -1,4 +1,4 @@
-# This is a TOML document.
+# This is a TOML example document, mostly taken from Tom Preston-Werner.
 
 multiline_string = """ This is a collapsable multiline comment
  with a \"quote\". 
@@ -7,9 +7,8 @@ multiline_string = """ This is a collapsable multiline comment
 """
 
 [owner]
-name = "Tom Preston-Werner"
+author = "Theodor Lindberg"
 date = 1979-05-27T07:32:00-08:00 # First class dates
-'quoted "value"' = "value"
 
 [database]
 server = "192.168.1.1"

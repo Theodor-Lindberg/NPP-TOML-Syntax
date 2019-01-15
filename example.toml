@@ -6,13 +6,15 @@ multiline_string = """ This is a collapsable multiline comment
  A fourth line.
 """
 
+number_example = [ inf, nan, +100, -100 ]
+
 [owner]
 author = "Theodor Lindberg"
 date = 1979-05-27T07:32:00-08:00 # First class dates
 
 [database]
 server = "192.168.1.1"
-ports = [ 8001, inf, nan, +100, -100, false ]
+ports = [ 8001, 8002, 8003 ]
 connection_max = 5_000
 enabled = true
 bin = 0b11111111

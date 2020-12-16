@@ -36,6 +36,7 @@ data = [ ["gamma", "delta"], [1, 2] ]
 # Line breaks are OK when inside arrays
 hosts = [
   "alpha",
-  "omega"
+  "omega",
+  'beta
 ]
 	

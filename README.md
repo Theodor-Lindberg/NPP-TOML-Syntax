@@ -2,7 +2,8 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-This is provides syntax highlighting for [TOML][toml] in Notepad++. This repo strives to always support the latest release, which is as of writing this [TOML v0.5.0][currver].
+
+This is provides syntax highlighting for [TOML][toml] in Notepad++. Current version of TOML you can see [there][currver].
 
 ## Getting started
 1. Download ```TOML.xml``` or ```TOML(dark).xml```. You can download the file by either cloning the repository or going  [here][rawTOML] for light or [there][rawTOML(dark)] and press ```CTRL-S``` on the keyboard.
@@ -17,8 +18,8 @@ This is provides syntax highlighting for [TOML][toml] in Notepad++. This repo st
 
 
 
-
+[originalrepo]: https://github.com/Theodor-Lindberg/NPP-TOML-Syntax 
 [toml]: https://github.com/toml-lang/toml
 [currver]: https://github.com/toml-lang/toml/releases
 [rawTOML]: https://raw.githubusercontent.com/Theodor-Lindberg/NPP-TOML-Syntax/master/TOML.xml
-[rawTOML(dark)]: 
+[rawTOML(dark)]: https://raw.githubusercontent.com/tst32/NPP-TOML-Syntax/master/toml(dark).xml

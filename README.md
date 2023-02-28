@@ -11,8 +11,9 @@ This is provides syntax highlighting for [TOML][toml] in Notepad++. This repo st
 4. Click *import* and choose ```TOML.xml```.
 5. Restart Notepad++ and it should now detect files with _.toml_ extension automatically.
 
-<img src="example_screenshot.png" width="600">
+<img src="example-light.png" width="600">
 
+<img src="example-dark.png" width="600">
 
 [toml]: https://github.com/toml-lang/toml
 [currver]: https://github.com/toml-lang/toml/blob/master/versions/en/toml-v0.5.0.md
